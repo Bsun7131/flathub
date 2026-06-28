@@ -23,6 +23,7 @@ modules:
       - cp -r sky-gap-escape-linux/* /app/bin/
       - chmod +x /app/bin/SkyGapEscape
       - chmod +x /app/bin/SkyGapEscape.sh
+      - chmod +x /app/bin/Engine/Binaries/Linux/UnrealGame-Linux-Shipping
       - install -Dm644 com.bsun.SkyGapEscape.desktop /app/share/applications/com.bsun.SkyGapEscape.desktop
       - install -Dm644 com.bsun.SkyGapEscape.metainfo.xml /app/share/metainfo/com.bsun.SkyGapEscape.metainfo.xml
       - install -Dm644 com.bsun.SkyGapEscape.png /app/share/icons/hicolor/256x256/apps/com.bsun.SkyGapEscape.png
